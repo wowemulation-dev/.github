@@ -38,5 +38,5 @@ a newborn, a wide range of options is available
 - testers, users, generally anyone providing feedback and willing to share
   their expectations
 
-For now, ping [@danielsreichenbach](https://mastodon.world/@danielsreichenbach) on
-🐘 Mastodon.
+For now, ping [@wowemulation@mastodon.social](https://mastodon.social/@wowemulation)
+on Mastodon 🐘.
