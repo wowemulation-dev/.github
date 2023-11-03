@@ -18,6 +18,8 @@ wonderful experience for young and old alike.
 
 ## Support
 
+- 🗨️ [community discussions](https://github.com/orgs/wowemulation-dev/discussions)
+  are open at all times
 - 📫 you can reach us via [mail](mailto:hello+github@wowemulation.dev) if you
   require direct assistance
 - 👨‍💼 [@danielsreichenbach](https://github.com/danielsreichenbach) is currently
@@ -38,5 +40,5 @@ a newborn, a wide range of options is available
 - testers, users, generally anyone providing feedback and willing to share
   their expectations
 
-For now, ping [@wowemulation@mastodon.social](https://mastodon.social/@wowemulation)
-on Mastodon 🐘.
+Please ping [@wowemulation@mastodon.social](https://mastodon.social/@wowemulation)
+on Mastodon 🐘 while we work on setting up GitHub discussions.
