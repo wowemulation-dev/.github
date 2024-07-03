@@ -1,8 +1,8 @@
 # Contributing to WoW Emulation projects
 
-Generally speaking, any kind of contribution is welcome. We do not expect
-you to be a professional engineer knowing all the tricks and bringing
-decades of experience and knowledge to the table.
+All contribution are welcome 😃. We do not expect you to be a professional.
+If this is your first day in Open Source and/or development, we'd love to have
+you here the same!
 
 The team members are people who want to keep on enjoying an old game,
 and we are learning along the way as we publish our projects.
