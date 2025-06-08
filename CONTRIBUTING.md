@@ -1,46 +1,144 @@
-# Contributing to WoW Emulation projects
+# Contributing to WoW Emulation Projects 🌟
 
-All contribution are welcome 😃. We do not expect you to be a professional.
-If this is your first day in Open Source and/or development, we'd love to have
-you here the same!
+## Welcome, Friend! 🎉
 
-The team members are people who want to keep on enjoying an old game,
-and we are learning along the way as we publish our projects.
+All contributions are welcome! 😃 **First day in Open Source? Perfect! You belong here!**
 
-Some of our projects may provide invidivual requirements for contributions,
-so please check first there.
+We're not looking for perfection - we're looking for people who care. If you love
+these classic games and want to help preserve them, you're already qualified! 💚
 
-Keep in mind that we can not guarantee instant replies to discussions, issues
-or pull requests. Our team members mostly are active on weekends, and as such
-any submission should be reviewed and/or reacted to at least on a weekly
-schedule.
+## 🤗 Who We Are
 
-## Issues
+We're just gamers who want to keep enjoying the games we love, learning and growing
+together along the way. Nobody here knows everything, and that's what makes it fun!
 
-Each individual project provides templates for bug reports and feature
-requests. When submitting an issue, please fill out the templates accordingly.
+## 🌱 Your First Contribution? Start Here
 
-Take some time to describe the nature of your issue, and helps to the best of
-your abilities to understand how we can help you.
+**Remember: No question is too small, no contribution too minor!**
 
-A reviewer will always be assigned from the pool of project contributors.
+### Step 1: Get Comfortable 🛋️
 
-## Pull Requests
+- Join our [community discussions][] and say hello! 👋
+- Read through some existing issues to get a feel for things
+- Don't understand something? Ask! We love questions!
 
-When submitting pull requests, we generally do not set any requirements.
-A good, concise description helps, and in case contributing code we would
-appreciate a few hints how to verify the functionality of the submitted
-changes.
+### Step 2: Find Your First Task 🎯
 
-Each pull request will be reviewed by an existing contributor.
+- Look for issues labeled `good first issue` 🏷️
+- Found something interesting? Comment on it!
+- Want to work on something not listed? Propose it!
 
-## Git Commit Messages
+### Step 3: Make Your Magic Happen ✨
 
-Commit messages are the single most important place to help other community
-members to understand what you are proposing, thus we ask to take a bit of
-time when writing yours.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b my-awesome-feature`)
+3. Make your changes (take your time!)
+4. Commit with a clear message (see below for tips)
+5. Push to your branch
+6. Open a Pull Request - we'll guide you from there!
 
-We recommend to use [Conventional Commits][], as it allows to provide
-sufficient context and sets some ground rules for how to author messages.
+**Stuck at any step? That's normal! Drop a message in discussions and we'll help! 🤝**
 
+## ⏰ When to Expect Responses
+
+Our team is mostly active on **weekends** 🗓️, so:
+
+- Weekday submissions: Expect responses by the weekend
+- Weekend submissions: Usually get same-day attention
+- Urgent security issues: We'll prioritize these!
+
+**Your patience makes our community sustainable! 🌻**
+
+## 🐛 Reporting Issues
+
+**Found a bug? Have an idea? Awesome! Here's how to share it:**
+
+### Writing a Great Issue 📝
+
+- Use our templates - they're there to help you!
+- Describe what you expected vs. what happened
+- Include steps to reproduce (if it's a bug)
+- Screenshots are super helpful! 📸
+- Not sure about something? Just do your best!
+
+**Remember: The "perfect" issue doesn't exist. Your report helps us improve! 🌟**
+
+## 🚀 Pull Requests
+
+### Making Your PR Shine ✨
+
+- **No perfection required!** We'll help you polish it
+- Describe what you changed and why
+- Tell us how to test your changes
+- First PR? Add "First PR" to your description - we'll give extra guidance! 🎓
+- Made a mistake? No worries! PRs are conversations, not tests
+
+### What Happens Next? 🤔
+
+1. A friendly contributor will review your PR
+2. They might suggest some tweaks (it's all about learning!)
+3. You make the changes (or discuss alternatives)
+4. We merge and celebrate! 🎉
+
+## 💬 Git Commit Messages Made Easy
+
+We use [Conventional Commits][] - it's simpler than it sounds! Here are examples:
+
+### The Basics 📚
+
+- `feat:` Adding something new
+  - Example: `feat: add dark mode toggle to settings`
+- `fix:` Fixing a bug
+  - Example: `fix: correct database connection timeout`
+- `docs:` Documentation changes
+  - Example: `docs: update installation instructions`
+- `chore:` Maintenance tasks
+  - Example: `chore: update dependencies`
+
+### Pro Tips 💡
+
+- Keep it short and sweet (under 50 characters)
+- Use present tense ("add" not "added")
+- No period at the end
+- Explain the "why" in the PR description
+
+**Messed up a commit message? It happens to all of us! We can fix it together! 🤝**
+
+## 📚 Learning Resources
+
+### New to Git? 🆕
+
+- [GitHub's Hello World Guide](https://guides.github.com/activities/hello-world/)
+- [First Contributions](https://firstcontributions.github.io/)
+- Our community is here to help - just ask!
+
+### Want to Level Up? 📈
+
+- [Conventional Commits](https://www.conventionalcommits.org/)
+- [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+- Pair with a community member on your first PR!
+
+## 🎮 Types of Contributions We Love
+
+- **Code** - Features, bug fixes, optimizations
+- **Documentation** - Tutorials, clarifications, translations
+- **Testing** - Bug reports, test cases, gameplay testing
+- **Ideas** - Feature requests, brainstorming, feedback
+- **Community** - Helping others, answering questions, being kind
+- **Art & Design** - Icons, screenshots, improving UI/UX
+
+**Your unique perspective makes our community better! 🌈**
+
+## 💖 Our Commitment to You
+
+- We'll treat you with respect and kindness
+- We'll help you learn and grow
+- We'll celebrate your contributions
+- We'll make this a safe space for everyone
+
+---
+
+**Ready to contribute? You've got this! And remember, we're here to help every step of the way! 🚀**
+
+[community discussions]: https://github.com/orgs/wowemulation-dev/discussions
 [Conventional Commits]: https://www.conventionalcommits.org/

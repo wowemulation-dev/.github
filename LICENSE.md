@@ -1,24 +1,62 @@
-# The MIT License (MIT)
+# Licensing 📜
 
-Copyright © `2023` `Daniel S. Reichenbach <daniel@kogito.network>`
+## Dual License - Your Choice! 🎯
 
-Permission is hereby granted, free of charge, to any person
-obtaining a copy of this software and associated documentation
-files (the “Software”), to deal in the Software without
-restriction, including without limitation the rights to use,
-copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the
-Software is furnished to do so, subject to the following
-conditions:
+The WoW Emulation community believes in giving you flexibility. All projects under
+our organization are dual-licensed, meaning you can choose the license that works
+best for your needs:
 
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
+- **MIT License** - Simple and permissive
+- **Apache License 2.0** - Patent protection included
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
-OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+## 🤝 Why Dual Licensing?
+
+We want our code to be as useful as possible to the community! By offering both licenses:
+
+- **MIT** lovers get the simplicity they prefer
+- **Apache 2.0** users get explicit patent grants
+- Everyone can contribute and use our code with confidence
+
+## 📋 How to Choose
+
+### Choose MIT if you want
+
+- ✨ Maximum simplicity
+- 📝 Minimal requirements
+- 🚀 Quick integration
+
+### Choose Apache 2.0 if you want
+
+- 🛡️ Patent protection
+- 📜 Clear contribution terms
+- 🏢 Enterprise-friendly licensing
+
+## 📄 License Files
+
+- [`LICENSE-MIT`](LICENSE-MIT) - The MIT License text
+- [`LICENSE-APACHE`](LICENSE-APACHE) - The Apache License 2.0 text
+
+## 💡 Using Our Code
+
+When using code from WoW Emulation projects, you can choose either license. Simply
+include the appropriate license file and follow its terms.
+
+### Example License Header
+
+```text
+// This file is dual-licensed under MIT OR Apache-2.0
+// You can choose either license for your use
+```
+
+## 🤔 Questions?
+
+Not sure which license to choose? Check out:
+
+- [Choose a License](https://choosealicense.com/licenses/)
+- Our [community discussions](https://github.com/orgs/wowemulation-dev/discussions)
+- The [tl;dr Legal](https://tldrlegal.com/) summaries
+
+---
+
+**Remember**: This dual-licensing approach applies to all WoW Emulation organization
+projects unless explicitly stated otherwise in a specific repository! 💚
