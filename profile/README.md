@@ -8,15 +8,18 @@ of [World of Warcraft][] that captured our hearts.
 
 ## 🎮 What We're About
 
-We focus on three beloved expansions:
+We preserve and support World of Warcraft from its earliest days through Mists of Pandaria:
 
-- ⚔️ **Vanilla** (2004) - Where it all began
-- 🔥 **The Burning Crusade** - Through the Dark Portal
-- ❄️ **Wrath of the Lich King** - Face the Frozen Throne
+- ⚔️ **Vanilla** (1.x) - Where it all began
+- 🔥 **The Burning Crusade** (2.x) - Through the Dark Portal
+- ❄️ **Wrath of the Lich King** (3.x) - Face the Frozen Throne
+- 🌋 **Cataclysm** (4.x) - When the world shattered
+- 🐼 **Mists of Pandaria** (5.x) - Discover Pandaria's mysteries
 
-Together, we develop software and tools that let anyone experience these
-original games using the original client software. It's all about preserving
-gaming history! 📚
+All these versions (1.x through 5.x) use MPQ archives, which allows us to consistently
+inspect and reverse engineer the game data. Together, we develop software and tools
+that let anyone experience these original games using the original client software.
+It's all about preserving gaming history! 📚
 
 ## 🤝 Our Mission
 
