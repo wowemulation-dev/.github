@@ -1,6 +1,10 @@
 # Welcome to WoW Emulation! 🎉
 
-**First time here? You're in the right place! No question is too small! 💚**
+<div align="center">
+
+![TOO SOON](assets/chibi-ragnaros-banner.jpeg)
+
+</div>
 
 [WoW Emulation][] is a warm, beginner-friendly community that's been growing since
 August 2023. We're here for anyone interested in experiencing the classic versions
