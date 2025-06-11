@@ -2,13 +2,18 @@
 
 <div align="center">
 
-![TOO SOON](assets/chibi-ragnaros-banner.jpeg)
+![TOO SOON](https://raw.githubusercontent.com/wowemulation-dev/.github/refs/heads/main/profile/assets/chibi-ragnaros-banner.jpeg)
 
 </div>
 
 [WoW Emulation][] is a warm, beginner-friendly community that's been growing since
 August 2023. We're here for anyone interested in experiencing the classic versions
 of [World of Warcraft][] that captured our hearts.
+
+## **Announcement**
+
+`warcraft-rs` is out as a new, super fast modding tool for all things WoW 1.x to 5.x!
+See the [announcement](https://github.com/orgs/wowemulation-dev/discussions/2) for further details!
 
 ## 🎮 What We're About
 
