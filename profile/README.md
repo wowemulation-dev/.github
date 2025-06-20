@@ -12,12 +12,19 @@ of [World of Warcraft][] that captured our hearts.
 
 ## **Announcement**
 
-`warcraft-rs` is out as a new, super fast modding tool for all things WoW 1.x to 5.x!
-See the [announcement](https://github.com/orgs/wowemulation-dev/discussions/2) for further details!
+And we are back with more fun: `cascette-rs` is out as a tool for handling modern
+content distribution used by Blizzard. See the [announcement](https://github.com/orgs/wowemulation-dev/discussions/4)
+for all the details.
+
+`warcraft-rs` is out as a new, super fast modding tool for all things WoW 1.x to
+WoW 5.x! See the [announcement](https://github.com/orgs/wowemulation-dev/discussions/2)
+and join the fun. With `warcraft-rs` we are giving you tools for modding WoW 1.x
+to 5.x content, that actually work.
 
 ## 🎮 What We're About
 
-We preserve and support World of Warcraft from its earliest days through Mists of Pandaria:
+We preserve and support World of Warcraft from its earliest days through Mists of
+Pandaria:
 
 - ⚔️ **Vanilla** (1.x) - Where it all began
 - 🔥 **The Burning Crusade** (2.x) - Through the Dark Portal
@@ -28,6 +35,7 @@ We preserve and support World of Warcraft from its earliest days through Mists o
 All these versions (1.x through 5.x) use MPQ archives, which allows us to consistently
 inspect and reverse engineer the game data. Together, we develop software and tools
 that let anyone experience these original games using the original client software.
+
 It's all about preserving gaming history! 📚
 
 ## 🤝 Our Mission
