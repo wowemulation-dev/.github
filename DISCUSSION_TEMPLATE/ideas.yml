@@ -1,0 +1,58 @@
+title: "Idea: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share your ideas for improving WoW emulation and preservation!
+        
+        This is the perfect place to propose new features, improvements, or completely new project ideas.
+  - type: textarea
+    id: idea
+    attributes:
+      label: "Your Idea"
+      description: "Describe your idea in detail"
+      placeholder: "What's your idea? How would it benefit the community?"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Idea Category"
+      description: "What category does your idea fit into?"
+      options:
+        - Core Emulation
+        - Tools & Utilities
+        - Documentation
+        - Community Building
+        - Preservation
+        - Research
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: "Project Scope"
+      description: "How big is this idea?"
+      options:
+        - Small Enhancement
+        - Medium Feature
+        - Large Project
+        - Community Initiative
+        - Research Project
+    validations:
+      required: true
+  - type: textarea
+    id: implementation
+    attributes:
+      label: "Implementation Thoughts (Optional)"
+      description: "Do you have any ideas about how this could be implemented?"
+      placeholder: "Any technical details, resources needed, or implementation approaches?"
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this idea, you agree to follow our [Code of Conduct](https://github.com/wowemulation-dev/.github/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

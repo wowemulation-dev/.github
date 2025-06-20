@@ -1,0 +1,56 @@
+title: "Poll: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Create a poll to gather community opinions and feedback!
+        
+        Use this template to ask the community for their input on decisions, preferences, or priorities.
+  - type: textarea
+    id: question
+    attributes:
+      label: "Poll Question"
+      description: "What question would you like to ask the community?"
+      placeholder: "What should we prioritize next? Which approach do you prefer?"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: "Context & Background"
+      description: "Provide context to help people understand the poll"
+      placeholder: "Why is this decision important? What are the implications of each option?"
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: "Poll Options"
+      description: "List the options people can choose from (one per line)"
+      placeholder: |
+        Option A: Description
+        Option B: Description
+        Option C: Description
+    validations:
+      required: true
+  - type: dropdown
+    id: duration
+    attributes:
+      label: "How long should this poll run?"
+      description: "When do you need results by?"
+      options:
+        - 1 week
+        - 2 weeks
+        - 1 month
+        - Until decided
+        - Other (specify in comments)
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this poll, you agree to follow our [Code of Conduct](https://github.com/wowemulation-dev/.github/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
