@@ -30,11 +30,13 @@ MD040:
         [
             'bash',
             'c',
+            'cpp',
             'cmake',
             'diff',
             'dockerfile',
             'glsl',
             'json',
+            'ldif',
             'lua',
             'mermaid',
             'pgsql',

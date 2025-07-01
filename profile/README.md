@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![TOO SOON](https://raw.githubusercontent.com/wowemulation-dev/.github/refs/heads/main/profile/assets/chibi-ragnaros-banner.jpeg)
+![TOO SOON](https://raw.githubusercontent.com/wowemulation-dev/.github/refs/heads/main/profile/assets/chibi-ragnaros-banner.jpeg "Chibi Ragnaros surrounded by friends")
 
 </div>
 
