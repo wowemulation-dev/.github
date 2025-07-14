@@ -62,6 +62,7 @@ and we do ours! Our focus is on:
 - 💬 **[Community Discussions][]** - Your questions make our community better!
 - 📧 **[Email us][mail]** - For anything you'd rather discuss privately
 - 🐘 **[@wowemulation@mastodon.social][]** - Follow us on Mastodon!
+- 💬 **[Discord][]** - Join our Discord server!
 - 👨‍💼 **[@danielsreichenbach][]** - Our friendly primary caretaker
 
 🌱 We're a young community (born August 2023), growing together with patience and kindness!
@@ -100,3 +101,4 @@ We're looking for amazing people like YOU! 👀 Whether you're:
 [community discussions]: https://github.com/orgs/wowemulation-dev/discussions
 [mail]: mailto:hello+github@wowemulation.dev
 [@danielsreichenbach]: https://github.com/danielsreichenbach
+[Discord]: https://discord.gg/QbXn7Vqb
