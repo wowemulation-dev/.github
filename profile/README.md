@@ -12,14 +12,11 @@ of [World of Warcraft][] that captured our hearts.
 
 ## **Announcement**
 
-And we are back with more fun: `cascette-rs` is out as a tool for handling modern
-content distribution used by Blizzard. See the [announcement](https://github.com/orgs/wowemulation-dev/discussions/4)
-for all the details.
+Join our growing community on Discord! We've just launched our official Discord server
+where you can connect with fellow WoW emulation enthusiasts, get help with projects,
+share your discoveries, and be part of our friendly community. 
 
-`warcraft-rs` is out as a new, super fast modding tool for all things WoW 1.x to
-WoW 5.x! See the [announcement](https://github.com/orgs/wowemulation-dev/discussions/2)
-and join the fun. With `warcraft-rs` we are giving you tools for modding WoW 1.x
-to 5.x content, that actually work.
+[Join us on Discord](https://discord.gg/QbXn7Vqb) and say hello!
 
 ## 🎮 What We're About
 
