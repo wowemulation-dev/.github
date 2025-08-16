@@ -16,22 +16,34 @@ Join our growing community on Discord! We've just launched our official Discord 
 where you can connect with fellow WoW emulation enthusiasts, get help with projects,
 share your discoveries, and be part of our friendly community. 
 
-[Join us on Discord](https://discord.gg/QbXn7Vqb) and say hello!
+[Join us on Discord](https://discord.gg/Q44pPMvGEd) and say hello!
 
 ## 🎮 What We're About
 
 We preserve and support World of Warcraft from its earliest days through Mists of
-Pandaria:
+Pandaria, including both original and Classic releases:
 
+### Original Releases ([MPQ Archive Format][warcraft-rs])
 - ⚔️ **Vanilla** (1.x) - Where it all began
 - 🔥 **The Burning Crusade** (2.x) - Through the Dark Portal
 - ❄️ **Wrath of the Lich King** (3.x) - Face the Frozen Throne
 - 🌋 **Cataclysm** (4.x) - When the world shattered
 - 🐼 **Mists of Pandaria** (5.x) - Discover Pandaria's mysteries
 
-All these versions (1.x through 5.x) use MPQ archives, which allows us to consistently
-inspect and reverse engineer the game data. Together, we develop software and tools
-that let anyone experience these original games using the original client software.
+These original versions use [MPQ archives][warcraft-rs] for game data storage.
+
+### Classic Releases ([CASC Archive Format with NGDP][cascette-rs])
+- ⚔️ **Classic Era** (1.13.x, 1.14.x, 1.15.x) - Recreation of Vanilla
+- 🔥 **Burning Crusade Classic** (2.5.x) - Recreation of TBC
+- ❄️ **Wrath Classic** (3.4.x) - Recreation of WotLK
+- 🌋 **Cataclysm Classic** (4.4.x) - Recreation of Cataclysm
+- 🐼 **Mists of Pandaria Remix** (5.5.x) - Recreation of MoP
+
+These Classic versions use the [CASC archive format and Blizzard's NGDP content
+distribution pipeline][cascette-rs].
+
+Together, we develop software and tools that let anyone experience these games
+using the original client software, working with both [MPQ][warcraft-rs] and [CASC][cascette-rs] archive formats.
 
 It's all about preserving gaming history! 📚
 
@@ -98,4 +110,6 @@ We're looking for amazing people like YOU! 👀 Whether you're:
 [community discussions]: https://github.com/orgs/wowemulation-dev/discussions
 [mail]: mailto:hello+github@wowemulation.dev
 [@danielsreichenbach]: https://github.com/danielsreichenbach
-[Discord]: https://discord.gg/QbXn7Vqb
+[Discord]: https://discord.gg/Q44pPMvGEd
+[warcraft-rs]: https://github.com/wowemulation-dev/warcraft-rs
+[cascette-rs]: https://github.com/wowemulation-dev/cascette-rs
