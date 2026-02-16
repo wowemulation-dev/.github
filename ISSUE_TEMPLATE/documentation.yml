@@ -1,0 +1,143 @@
+name: 📚 Documentation Issue
+description: Report missing, incorrect, or unclear documentation
+title: "[Docs]: "
+labels: ["documentation", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve our documentation!
+        Clear and accurate documentation is essential for a good developer experience.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: Please confirm you have completed the following
+      options:
+        - label: I have searched existing issues to ensure this isn't a duplicate
+          required: true
+        - label: I have checked the latest documentation on the main branch
+          required: true
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which project is this documentation for?
+      options:
+        - cascette-rs
+        - warcraft-rs
+        - rilua
+        - wow-patcher
+        - recast-rs
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: documentation-type
+    attributes:
+      label: Documentation Type
+      description: What type of documentation issue is this?
+      options:
+        - Missing documentation
+        - Incorrect/outdated information
+        - Unclear explanation
+        - Broken links
+        - Formatting issues
+        - Code examples not working
+        - API documentation gaps
+        - Tutorial improvements
+        - Installation guide issues
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Issue Description
+      description: Describe the documentation problem
+      placeholder: |
+        What's wrong with the current documentation?
+        What information is missing or unclear?
+    validations:
+      required: true
+
+  - type: input
+    id: documentation-location
+    attributes:
+      label: Documentation Location
+      description: Where is the problematic documentation located?
+      placeholder: |
+        e.g., docs/guides/mpq-archives.md, README.md, API docs for Archive::open, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-content
+    attributes:
+      label: Current Content
+      description: Quote the current documentation content (if applicable)
+      render: markdown
+      placeholder: |
+        ```markdown
+        Current documentation that needs improvement...
+        ```
+    validations:
+      required: false
+
+  - type: textarea
+    id: suggested-improvement
+    attributes:
+      label: Suggested Improvement
+      description: How should the documentation be improved?
+      placeholder: |
+        - What information should be added?
+        - How should existing content be clarified?
+        - What examples would be helpful?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Target Audience
+      description: Who is the primary audience for this documentation?
+      options:
+        - Beginners/new users
+        - Intermediate developers
+        - Advanced users
+        - Contributors/maintainers
+        - Library users (API consumers)
+        - CLI users
+        - All audiences
+        - Other
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribution-willingness
+    attributes:
+      label: Contribution
+      description: Are you willing to help improve this documentation?
+      options:
+        - label: I can write the improved documentation
+        - label: I can provide examples or code snippets
+        - label: I can review proposed changes
+        - label: I can test documentation changes
+        - label: I'm looking for someone else to fix this
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other information that would help improve the documentation
+      placeholder: |
+        - Common misconceptions users have
+        - Frequently asked questions
+        - Error messages users encounter
+        - Related tools or workflows
+    validations:
+      required: false

@@ -1,0 +1,139 @@
+name: "\U0001F4DD Question or Support"
+description: Ask a question or request help
+title: "[Question]: "
+labels: ["question", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your question! Please provide as much context as possible to help us give you the best answer.
+
+        **Before asking:**
+        - Check the documentation and README
+        - Search existing issues and discussions
+        - Review the [FAQ](../FAQ.md)
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: Please confirm you have completed the following
+      options:
+        - label: I have searched existing issues and discussions
+          required: true
+        - label: I have read the relevant documentation
+          required: true
+        - label: This is not a bug report or feature request
+          required: true
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which project is your question about?
+      options:
+        - cascette-rs
+        - warcraft-rs
+        - rilua
+        - wow-patcher
+        - recast-rs
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: question-type
+    attributes:
+      label: Question Type
+      description: What type of question is this?
+      options:
+        - Usage/How-to
+        - Implementation guidance
+        - Best practices
+        - Architecture/design
+        - Performance
+        - Compatibility
+        - Integration
+        - Troubleshooting
+        - Development/contributing
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to know?
+      placeholder: |
+        Please be specific and provide context...
+        What are you trying to accomplish?
+        What have you tried so far?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Provide relevant context for your question
+      placeholder: |
+        - What are you building/working on?
+        - What's your experience level?
+        - Are you working with specific WoW versions or file types?
+        - Any constraints or requirements?
+    validations:
+      required: false
+
+  - type: textarea
+    id: current-approach
+    attributes:
+      label: Current Approach
+      description: What have you tried so far?
+      placeholder: |
+        - Code examples you've attempted
+        - Commands you've run
+        - Research you've done
+        - Similar solutions you've found
+    validations:
+      required: false
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating System
+      description: What operating system are you using?
+      options:
+        - Linux
+        - macOS
+        - Windows
+        - Other
+        - Not applicable
+    validations:
+      required: false
+
+  - type: textarea
+    id: code-examples
+    attributes:
+      label: Code Examples
+      description: Any relevant code you're working with
+      render: rust
+      placeholder: |
+        ```rust
+        // Your code here...
+        ```
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other relevant information
+      placeholder: |
+        - Links to external resources
+        - Screenshots or examples
+        - Specific file formats or versions
+        - Performance requirements
+    validations:
+      required: false

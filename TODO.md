@@ -1,14 +1,14 @@
-# Community Improvement TODO List 📋
+# Community Improvement TODO List
 
-## 🎯 Our Mission
+## Our Mission
 
 Make the WoW Emulation community the friendliest and most welcoming corner of
-GitHub! This TODO list contains ideas to enhance our community profile and create
-an even better experience for everyone.
+GitHub! This TODO list contains ideas to enhance our community profile and
+create an even better experience for everyone.
 
-## 📝 High Priority Tasks
+## High Priority Tasks
 
-### 1. ⭐ Add Success Stories Section
+### 1. Add Success Stories Section
 
 - [ ] Create a "Success Stories" section in `profile/README.md`
 - [ ] Include first-time contributor stories
@@ -16,27 +16,27 @@ an even better experience for everyone.
 - [ ] Add "My first PR" testimonials
 - [ ] Update monthly with new stories
 
-### 2. 📄 Create Issue & PR Templates
+### 2. Create Issue & PR Templates
 
-- [ ] Create `.github/ISSUE_TEMPLATE/` directory
-- [ ] Add bug report template
-- [ ] Add feature request template
-- [ ] Add first-timer-friendly templates
-- [ ] Add "help wanted" template
-- [ ] Create pull request template
+- [x] Create `.github/ISSUE_TEMPLATE/` directory
+- [x] Add bug report template
+- [x] Add feature request template
+- [x] Add first-timer-friendly templates
+- [x] Add "help wanted" template
+- [x] Create pull request template
 
-### 3. ❓ Add FAQ Section
+### 3. Add FAQ Section
 
-- [ ] Create FAQ.md or add to profile/README.md
-- [ ] Answer "Is this legal?"
-- [ ] Explain difference from Classic WoW
-- [ ] Address "Can I contribute without coding?"
-- [ ] Cover minimum skill requirements
-- [ ] Add technical terminology explanations
+- [x] Create FAQ.md
+- [x] Answer "Is this legal?"
+- [x] Explain difference from Classic WoW
+- [x] Address "Can I contribute without coding?"
+- [x] Cover minimum skill requirements
+- [x] Add technical terminology explanations
 
-## 🚀 Medium Priority Tasks
+## Medium Priority Tasks
 
-### 4. 🗺️ Create Roadmap Document
+### 4. Create Roadmap Document
 
 - [ ] Draft ROADMAP.md with long-term vision
 - [ ] List planned projects
@@ -44,7 +44,7 @@ an even better experience for everyone.
 - [ ] Set quarterly goals
 - [ ] Make it beginner-friendly
 
-### 5. 📖 Build a Glossary
+### 5. Build a Glossary
 
 - [ ] Create GLOSSARY.md
 - [ ] Define emulator vs private server
@@ -52,7 +52,7 @@ an even better experience for everyone.
 - [ ] Clarify technical terms
 - [ ] Add links to learning resources
 
-### 6. ✅ Design Onboarding Checklists
+### 6. Design Onboarding Checklists
 
 - [ ] Add new member checklist to CONTRIBUTING.md
 - [ ] Create developer onboarding path
@@ -60,7 +60,7 @@ an even better experience for everyone.
 - [ ] Make interactive checklist
 - [ ] Track completion rates
 
-### 7. 💬 Expand Communication Guidelines
+### 7. Expand Communication Guidelines
 
 - [ ] Add timezone information to SUPPORT.md
 - [ ] Create "How to ask good questions" guide
@@ -68,9 +68,9 @@ an even better experience for everyone.
 - [ ] Define response time expectations
 - [ ] Include escalation paths
 
-## 🌟 Nice-to-Have Tasks
+## Nice-to-Have Tasks
 
-### 8. 🏆 Implement Recognition Systems
+### 8. Implement Recognition Systems
 
 - [ ] Design "Contributor of the Month" program
 - [ ] Create special badges/roles system
@@ -78,7 +78,7 @@ an even better experience for everyone.
 - [ ] Set up automated recognition
 - [ ] Plan celebration posts
 
-### 9. 🎨 Add Visual Elements
+### 9. Add Visual Elements
 
 - [ ] Commission community logo/banner
 - [ ] Create architecture diagrams
@@ -86,7 +86,7 @@ an even better experience for everyone.
 - [ ] Design contribution flowchart
 - [ ] Make infographics
 
-### 10. 🎉 Establish Community Rituals
+### 10. Establish Community Rituals
 
 - [ ] Plan "Welcome Wednesday" format
 - [ ] Schedule monthly community calls
@@ -94,7 +94,7 @@ an even better experience for everyone.
 - [ ] Create "Show and Tell" sessions
 - [ ] Build community calendar
 
-### 11. 🎓 Develop Learning Paths
+### 11. Develop Learning Paths
 
 - [ ] Create beginner learning path
 - [ ] Design developer growth track
@@ -102,7 +102,7 @@ an even better experience for everyone.
 - [ ] Add skill assessments
 - [ ] Link to resources
 
-### 12. 🤝 Launch Mentorship Program
+### 12. Launch Mentorship Program
 
 - [ ] Define mentor requirements
 - [ ] Create mentor application process
@@ -110,7 +110,7 @@ an even better experience for everyone.
 - [ ] Build mentor resources
 - [ ] Track program success
 
-### 13. 🦸 Create Hall of Heroes
+### 13. Create Hall of Heroes
 
 - [ ] Design recognition criteria
 - [ ] Build heroes showcase page
@@ -118,37 +118,53 @@ an even better experience for everyone.
 - [ ] Create nomination process
 - [ ] Plan quarterly updates
 
-## 📊 Progress Tracking
+## Progress Tracking
 
-### Quick Wins (Do First!) 🎯
+### Completed (February 2025)
 
-1. FAQ Section - High impact, easy to implement
-2. Issue Templates - Improves contribution quality
-3. Onboarding Checklist - Helps newcomers immediately
+**Profile & Templates**:
+- Profile README restructured for WoW Classic focus
+- Issue templates (bug report, feature request, config, good first issue,
+  help wanted, documentation, question, security vulnerability)
+- Pull request template
+- FAQ.md with common questions
+- Template consolidation (removed repo-specific templates from warcraft-rs
+  and recast-rs; all repos now use org-level templates)
+- Markdown linting migrated to markdownlint-cli2
 
-### Community Building (Do Next!) 🤝
+**Discussion Templates Removed**:
+- Deleted org-level discussion templates (using GitHub defaults for now)
+
+### Quick Wins
+
+1. ~~FAQ Section~~ - DONE!
+2. ~~Issue Templates~~ - DONE!
+3. ~~PR Template~~ - DONE!
+4. Onboarding Checklist - Helps newcomers immediately
+
+### Community Building (Do Next!)
 
 1. Success Stories - Inspires new contributors
 2. Recognition Systems - Keeps people engaged
 3. Community Rituals - Builds belonging
 
-### Long-term Growth (Plan For!) 🌱
+### Long-term Growth (Plan For!)
 
 1. Mentorship Program - Sustainable growth
 2. Learning Paths - Skill development
 3. Visual Elements - Professional appearance
 
-## 🤔 How to Contribute to This TODO
+## How to Contribute to This TODO
 
 1. **Pick a task** that excites you!
 2. **Comment on discussions** to claim it
 3. **Ask questions** - we're here to help!
 4. **Submit PRs** - even small progress counts!
-5. **Celebrate** when tasks are completed! 🎉
+5. **Celebrate** when tasks are completed!
 
 ---
 
-**Remember**: This TODO list is a living document! Feel free to suggest new ideas
-or improvements. Every contribution makes our community better! 💚
+**Remember**: This TODO list is a living document! Feel free to suggest new
+ideas or improvements. Every contribution makes our community better!
 
-> *Last updated: January 2025*
+> *Last updated: February 2025*
