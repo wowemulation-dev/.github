@@ -55,27 +55,27 @@ These original versions use [MPQ archives][warcraft-rs] for game data storage.
 
 ## 🌟 Community Success Stories
 
-Real achievements from our community members.
+What happens when people build together.
 
-### From Zero to Game Data
+### One Home for WoW Tooling
 
-**The Old Way**: Want to work with WoW game data? Good luck. You'd need to dig through 50 GitHub repositories, join 25 Discord servers, and scour 45 forums and web archives - hoping the code still works, the links aren't dead, and someone actually documented what they figured out.
+**The Old Way**: Want to work with WoW game data? Good luck. You'd need to dig through 50 GitHub repositories, join 25 Discord servers, and scour 45 forums and web archives - hoping the code still works, the links aren't dead, and someone actually documented what they figured out. Everyone solving the same problems in isolation.
 
-**What We Built**: Two projects now cover the entire WoW data landscape:
+**What We Built Together**:
 
 - **warcraft-rs** handles everything from the original 2004 release through Mists of Pandaria - MPQ archives, BLP textures, M2 models, WMO world objects, ADT terrain, DBC databases. Parse it, build it, convert it.
 
 - **cascette-rs** handles modern WoW Classic clients using Blizzard's NGDP distribution protocol and CASC archive format. The same workflow, but for 6.0+ game data.
 
-**Why It Matters**: One organization, authoritative sources, active maintenance. No more treasure hunting. Clone the repo, read the docs, build your tool.
+**Why It Matters**: One place. One community. Instead of everyone reverse-engineering the same formats in parallel, we do it once, together, and share the results. Your next project starts with working code, not weeks of research.
 
-### rilua: When You Need a Lua VM
+### rilua: A Lua VM, Built Together
 
-**The Problem**: WoW uses Lua 5.1 for its interface and scripting. If you're building tooling that needs to run or analyze that code, you either bind to a C library or you're out of luck.
+**The Problem**: WoW uses Lua 5.1 for its interface and scripting. Building tooling that needs to run or analyze that code meant binding to a C library - if you could make it work on your platform.
 
-**What Happened**: We built a complete Lua 5.1.1 virtual machine from scratch in pure Rust - compiler, VM, garbage collector, full standard library. It produces byte-identical output to the official PUC-Rio implementation.
+**What We Built Together**: A complete Lua 5.1.1 virtual machine in pure Rust - compiler, VM, garbage collector, full standard library. Byte-identical output to the official PUC-Rio implementation. Pure Rust, no FFI, works everywhere including WASM.
 
-**Why It Matters**: Pure Rust, no FFI dependencies, works everywhere including WASM. Embed it in your tools without pulling in native libraries.
+**Why It Matters**: One community effort that everyone can build on. Embed it in your tools without fighting native library dependencies.
 
 ---
 
