@@ -10,9 +10,9 @@ create an even better experience for everyone.
 
 ### 1. Add Success Stories Section
 
-- [ ] Create a "Success Stories" section in `profile/README.md`
+- [x] Create a "Success Stories" section in `profile/README.md`
 - [ ] Include first-time contributor stories
-- [ ] Showcase community-built projects
+- [x] Showcase community-built projects (warcraft-rs, rilua)
 - [ ] Add "My first PR" testimonials
 - [ ] Update monthly with new stories
 
