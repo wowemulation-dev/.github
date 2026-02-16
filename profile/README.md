@@ -55,59 +55,31 @@ These original versions use [MPQ archives][warcraft-rs] for game data storage.
 
 ## 🌟 Community Success Stories
 
-Real achievements from our community members. These stories show what's possible
-when curious people collaborate on challenging problems.
+Real achievements from our community members.
 
-### warcraft-rs: 99.5% Parser Compatibility in 8 Months
+### From Zero to Game Data
 
-**The Challenge**: World of Warcraft's file formats (MPQ, BLP, M2, WMO, ADT, DBC)
-are proprietary binary structures that evolved across 5+ expansions. Each format
-has undocumented quirks, version-specific variations, and edge cases that only
-appear in real game files.
+**The Old Way**: Want to work with WoW game data? Good luck. You'd need to dig through 50 GitHub repositories, join 25 Discord servers, and scour 45 forums and web archives - hoping the code still works, the links aren't dead, and someone actually documented what they figured out.
 
-**What Happened**: Starting from scratch in June 2025, one contributor
-systematically built parsers for every major WoW file format. By February 2026,
-the toolkit achieved 99.5% success rate parsing 200+ real game files from
-Vanilla through Mists of Pandaria.
+**What We Built**: Two projects now cover the entire WoW data landscape:
 
-**Key Results**:
+- **warcraft-rs** handles everything from the original 2004 release through Mists of Pandaria - MPQ archives, BLP textures, M2 models, WMO world objects, ADT terrain, DBC databases. Parse it, build it, convert it.
 
-- 700x performance improvement for Cataclysm/MoP archive extraction
-- Full round-trip parsing and writing for most formats
-- Cross-platform CLI with parallel processing
-- Now used by other WoW tooling projects
+- **cascette-rs** handles modern WoW Classic clients using Blizzard's NGDP distribution protocol and CASC archive format. The same workflow, but for 6.0+ game data.
 
-**Why It Matters**: Before warcraft-rs, building WoW tools required
-reverse-engineering formats yourself or relying on C++ libraries like StormLib.
-Now there's a pure Rust option with comprehensive format coverage and active
-maintenance.
+**Why It Matters**: One organization, authoritative sources, active maintenance. No more treasure hunting. Clone the repo, read the docs, build your tool.
 
-### rilua: A Complete Lua 5.1.1 VM from Scratch
+### rilua: When You Need a Lua VM
 
-**The Challenge**: Implement a Lua 5.1.1 virtual machine in Rust that produces
-byte-identical bytecode to the official PUC-Rio reference implementation - no
-small feat given Lua's complex semantics.
+**The Problem**: WoW uses Lua 5.1 for its interface and scripting. If you're building tooling that needs to run or analyze that code, you either bind to a C library or you're out of luck.
 
-**What Happened**: A complete rewrite from an earlier prototype, building an
-AST-based compiler, register-based VM, and arena-based garbage collector - all
-from the ground up.
+**What Happened**: We built a complete Lua 5.1.1 virtual machine from scratch in pure Rust - compiler, VM, garbage collector, full standard library. It produces byte-identical output to the official PUC-Rio implementation.
 
-**Key Results**:
-
-- 1,304 tests passing (596 unit + 431 integration + 277 oracle comparison)
-- PUC-Rio official test suite: 23/23 pass
-- Full standard library: 28 base functions, 14 string, 9 table, 28 math, plus
-  I/O, OS, and debug libraries
-- Cross-platform: Linux, macOS, Windows, WASM
-
-**Why It Matters**: Enables WoW addon and script tooling in pure Rust without
-FFI dependencies on native Lua libraries. Opens possibilities for embedded
-scripting in other WoW-related tools.
+**Why It Matters**: Pure Rust, no FFI dependencies, works everywhere including WASM. Embed it in your tools without pulling in native libraries.
 
 ---
 
-Have a success story to share? We'd love to feature it! Drop us a message in
-[community discussions][] or [Discord][].
+Building something cool? We'd love to feature it! Drop us a message in [community discussions][] or [Discord][].
 
 ## 🤝 Our Mission
 
