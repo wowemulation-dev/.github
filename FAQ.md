@@ -127,7 +127,7 @@ to see what people are working on!
 
 ### Where can I talk to people?
 
-- **[Discord](https://discord.gg/Q44pPMvGEd)** - Real-time chat with 100+ active
+- **[Discord](https://discord.gg/Jj4uWy3DGP)** - Real-time chat with 100+ active
   members
 - **[GitHub Discussions](https://github.com/orgs/wowemulation-dev/discussions)** -
   Longer-form conversations
@@ -137,4 +137,4 @@ to see what people are working on!
 
 Still have questions? Ask in our
 [Discussions](https://github.com/orgs/wowemulation-dev/discussions) or join our
-[Discord](https://discord.gg/Q44pPMvGEd)! We're happy to help! 💚
+[Discord](https://discord.gg/Jj4uWy3DGP)! We're happy to help! 💚

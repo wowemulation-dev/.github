@@ -144,7 +144,7 @@ We're looking for amazing people like YOU! 👀 Whether you're:
 [community discussions]: https://github.com/orgs/wowemulation-dev/discussions
 [mail]: mailto:hello+github@wowemulation.dev
 [@danielsreichenbach]: https://github.com/danielsreichenbach
-[Discord]: https://discord.gg/Q44pPMvGEd
+[Discord]: https://discord.gg/Jj4uWy3DGP
 [warcraft-rs]: https://github.com/wowemulation-dev/warcraft-rs
 [cascette-rs]: https://github.com/wowemulation-dev/cascette-rs
 [rilua]: https://github.com/wowemulation-dev/rilua
