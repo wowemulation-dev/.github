@@ -1,4 +1,4 @@
-# Welcome to WoW Emulation! 🎉
+# Welcome to WoW Emulation
 
 <div align="center">
 
@@ -6,140 +6,115 @@
 
 </div>
 
-[WoW Emulation][] is a warm, beginner-friendly community that's been growing
-since August 2023. We're here for anyone interested in experiencing the classic
-versions of [World of Warcraft][] that captured our hearts.
+WoW Emulation is a warm, beginner-friendly community that preserves
+and archives all versions of World of Warcraft.
 
-## 🎮 What We're About
+**Join us!** Drop into our [Discord][] or
+[community discussions][] to meet fellow enthusiasts, ask
+questions, and contribute to the future of WoW preservation.
 
-We preserve and support World of Warcraft, with a primary focus on **WoW
-Classic** and archival support for original releases.
+We actively develop tools for modern WoW Classic clients,
+letting you experience the game without relying on Battle.net.
+Our [cascette-rs][] project implements Blizzard's NGDP
+distribution protocol and CASC archive format, creating a
+complete alternative for playing Classic Era, TBC Classic,
+Wrath Classic, Cataclysm Classic, and Mists of Pandaria
+Classic.
 
-### Classic Releases ([CASC Archive Format with NGDP][cascette-rs]) ✨
+## What We Work On
 
-These are our primary focus - the modern Classic recreations that let players
-experience WoW as it was:
+We actively develop for modern WoW Classic clients while
+providing archival support for original releases.
 
-- ⚔️ **Classic Era** (1.13.x, 1.14.x, 1.15.x) - Recreation of Vanilla
-- 🔥 **Burning Crusade Classic** (2.5.x) - Recreation of TBC
-- ❄️ **Wrath Classic** (3.4.x) - Recreation of WotLK
-- 🌋 **Cataclysm Classic** (4.4.x) - Recreation of Cataclysm
-- 🐼 **Mists of Pandaria Remix** (5.5.x) - Recreation of MoP
+| Era                     | Versions               | Format    |
+| ----------------------- | ---------------------- | --------- |
+| Classic Era             | 1.13.x, 1.14.x, 1.15.x | CASC/NGDP |
+| Burning Crusade Classic | 2.5.x                  | CASC/NGDP |
+| Wrath Classic           | 3.4.x                  | CASC/NGDP |
+| Cataclysm Classic       | 4.4.x                  | CASC/NGDP |
+| Mists of Pandaria Remix | 5.5.x                  | CASC/NGDP |
+| Vanilla                 | 1.x                    | MPQ       |
+| The Burning Crusade     | 2.x                    | MPQ       |
+| Wrath of the Lich King  | 3.x                    | MPQ       |
+| Cataclysm               | 4.x                    | MPQ       |
+| Mists of Pandaria       | 5.x                    | MPQ       |
 
-These Classic versions use the [CASC archive format and Blizzard's NGDP
-content distribution pipeline][cascette-rs]. We're building a replacement for
-the Battle.net client that works with modern WoW Classic clients - it's almost
-complete!
+**CASC/NGDP**: Modern archive format with Blizzard's content
+distribution pipeline. We build replacement infrastructure for
+the Battle.net client that works with modern WoW Classic
+clients.
 
-### Original Releases ([MPQ Archive Format][warcraft-rs])
+**MPQ**: Legacy archive format used in original releases
+through Mists of Pandaria. Supported for archival purposes.
 
-These older versions are supported for archival purposes:
+## Featured Projects
 
-- ⚔️ **Vanilla** (1.x) - Where it all began
-- 🔥 **The Burning Crusade** (2.x) - Through the Dark Portal
-- ❄️ **Wrath of the Lich King** (3.x) - Face the Frozen Throne
-- 🌋 **Cataclysm** (4.x) - When the world shattered
-- 🐼 **Mists of Pandaria** (5.x) - Discover Pandaria's mysteries
-
-These original versions use [MPQ archives][warcraft-rs] for game data storage.
-
-## 🚀 Featured Projects
-
-| Project | Description |
-| ------- | ----------- |
+| Project         | Description                                             |
+| --------------- | ------------------------------------------------------- |
 | [cascette-rs][] | NGDP/CASC implementation for modern WoW Classic clients |
-| [warcraft-rs][] | File format parsers (MPQ, DBC, BLP, M2, WMO, ADT) |
-| [rilua][] | Lua 5.1.1 interpreter in pure Rust |
-| [wow-patcher][] | Game client patching tools |
-| [recast-rs][] | Navigation mesh library with WASM support |
+| [warcraft-rs][] | File format parsers (MPQ, DBC, BLP, M2, WMO, ADT)       |
+| [rilua][]       | Lua 5.1.1 interpreter in pure Rust                      |
+| [wow-patcher][] | Game client patching tools                              |
+| [recast-rs][]   | Navigation mesh library with WASM support               |
 
-## 🌟 Community Success Stories
-
-What happens when people build together.
+## Community Projects
 
 ### One Home for WoW Tooling
 
-**The Old Way**: Want to work with WoW game data? Good luck. You'd need to dig through 50 GitHub repositories, join 25 Discord servers, and scour 45 forums and web archives - hoping the code still works, the links aren't dead, and someone actually documented what they figured out. Everyone solving the same problems in isolation.
+Working with WoW game data used to mean digging through
+dozens of repositories and forums, hoping code still worked
+and links weren't dead. Everyone solved the same problems
+in isolation.
 
-**What We Built Together**:
+Now **warcraft-rs** handles original releases (MPQ, BLP textures,
+M2 models, WMO objects, ADT terrain, DBC databases) and
+**cascette-rs** handles modern Classic clients (NGDP, CASC).
+One place, one community - your next project starts with working
+code instead of weeks of research.
 
-- **warcraft-rs** handles everything from the original 2004 release through Mists of Pandaria - MPQ archives, BLP textures, M2 models, WMO world objects, ADT terrain, DBC databases. Parse it, build it, convert it.
+### A Lua VM, Built Together
 
-- **cascette-rs** handles modern WoW Classic clients using Blizzard's NGDP distribution protocol and CASC archive format. The same workflow, but for 6.0+ game data.
+WoW uses Lua 5.1 for its interface and scripting. Building tooling
+around it meant binding to a C library - if you could make it work
+on your platform.
 
-**Why It Matters**: One place. One community. Instead of everyone reverse-engineering the same formats in parallel, we do it once, together, and share the results. Your next project starts with working code, not weeks of research.
-
-### rilua: A Lua VM, Built Together
-
-**The Problem**: WoW uses Lua 5.1 for its interface and scripting. Building tooling that needs to run or analyze that code meant binding to a C library - if you could make it work on your platform.
-
-**What We Built Together**: A complete Lua 5.1.1 virtual machine in pure Rust - compiler, VM, garbage collector, full standard library. Byte-identical output to the official PUC-Rio implementation. Pure Rust, no FFI, works everywhere including WASM.
-
-**Why It Matters**: One community effort that everyone can build on. Embed it in your tools without fighting native library dependencies.
+Together we built **rilua**: a complete Lua 5.1.1 virtual
+machine in pure Rust. Compiler, VM, garbage collector, full
+standard library. Byte-identical to official PUC-Rio
+implementation. Pure Rust, no FFI, works everywhere including
+WASM. One community effort everyone can build on.
 
 ---
 
-Building something cool? We'd love to feature it! Drop us a message in [community discussions][] or [Discord][].
+Building something cool? We'd love to feature it! Drop us a
+message in [community discussions][] or [Discord][].
 
-## 🤝 Our Mission
+## Our Mission
 
-We're not here to compete with [Classic WoW][] - [Blizzard][] does their thing,
-and we do ours! Our focus is on:
+- Archival - Preserving gaming history
+- Community - Keeping the magic alive together
+- Learning - Growing our skills while having fun
+- Inclusivity - Creating wonderful experiences for everyone
 
-- 🏛️ **Archival** - Preserving gaming history
-- 🌟 **Community** - Keeping the magic alive together
-- 🎓 **Learning** - Growing our skills while having fun
-- 💖 **Inclusivity** - Creating wonderful experiences for everyone
+## Getting Started
 
-## 🌱 First Time Here? Start Here
+Remember: We're all learning together! Mistakes are how we grow!
 
-**Remember: We're all learning together! Mistakes are how we grow! 🌟**
+1. Say hello in our [community discussions][]
+2. Check out our [Contributing Guide](../CONTRIBUTING.md)
+3. Look for issues labeled "good first issue" in our projects
+4. Ask questions - we love helping newcomers
 
-1. 👋 Say hello in our [community discussions][]
-2. 📖 Check out our [Contributing Guide](../CONTRIBUTING.md) (it's super
-   friendly!)
-3. 🎯 Look for issues labeled "good first issue" in our projects
-4. 🤔 Ask questions - seriously, we love helping newcomers!
+**New to open source?** We've all been there! Need help with Git? Want a mentor? Just ask in discussions!
 
-## 🤗 Get Help & Make Friends
+## Connect
 
-- 💬 **[Community Discussions][]** - Your questions make our community better!
-- 💬 **[Discord][]** - Join 100+ active members! Many are creators of WoW
-  modding tools.
-- 🐘 **[@wowemulation@mastodon.social][]** - Follow us on Mastodon!
-- 📧 **[Email us][mail]** - For anything you'd rather discuss privately
-- 👨‍💼 **[@danielsreichenbach][]** - Our friendly primary caretaker
+- [Community Discussions][] - Your questions make our community better!
+- [Discord][] - Join our server! Many members are creators of WoW modding tools.
+- [@wowemulation@mastodon.social][] - Follow us on Mastodon
+- [Email us][mail] - For anything you'd rather discuss privately
+- [@danielsreichenbach][] - Our friendly primary caretaker
 
-## 🚀 Join Our Adventure
-
-We're looking for amazing people like YOU! 👀 Whether you're:
-
-- 🎭 **Community Builders** - Help us create the friendliest corner of GitHub
-- 🌟 **Fresh Developers** - Your first PR? We'll guide you through it!
-- 🧙‍♂️ **Seasoned Engineers** - Share your wisdom and help us grow
-- 🎮 **Testers & Players** - Your feedback shapes our projects
-- 📝 **Documentation Writers** - Help others learn what you've discovered
-- 🎨 **Creative Minds** - Ideas, art, and enthusiasm all welcome!
-
-**No experience? No problem! Enthusiasm is all you need! 💪**
-
-## 📚 Resources for Beginners
-
-- 🎓 **New to Open Source?** Don't worry, we've all been there!
-- 🛠️ **Learning Git?** We'll help you through your first commit
-- 🤝 **Need a mentor?** Just ask in discussions!
-
-## 💌 Our Promise to You
-
-- ✨ Your contributions matter, no matter how small
-- 🤗 We'll treat you with kindness and respect
-- 📈 We'll help you grow your skills
-- 🎉 We'll celebrate your successes with you!
-
-[WoW Emulation]: https://wowemulation.dev/
-[World of Warcraft]: https://worldofwarcraft.blizzard.com/
-[Classic WoW]: https://wowclassic.blizzard.com/
-[Blizzard]: https://blizzard.com/
 [@wowemulation@mastodon.social]: https://mastodon.social/@wowemulation
 [community discussions]: https://github.com/orgs/wowemulation-dev/discussions
 [mail]: mailto:hello+github@wowemulation.dev

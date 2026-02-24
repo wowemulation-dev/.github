@@ -57,4 +57,4 @@ helping us build a stronger, safer community for everyone. We're grateful for yo
 
 ---
 
-**Found something? Don't hesitate - every report makes our community safer! 🌟**
+### Found something? Don't hesitate - every report makes our community safer! 🌟

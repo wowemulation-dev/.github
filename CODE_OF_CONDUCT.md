@@ -78,7 +78,7 @@ representative at an online or offline event.
 
 ## 📬 How to Report Issues - Enforcement
 
-**See something? Say something! We've got your back! 💪**
+### See something? Say something! We've got your back! 💪
 
 If someone's making you or others uncomfortable:
 
@@ -87,11 +87,15 @@ If someone's making you or others uncomfortable:
 - ⚡ **We'll act quickly** - Usually within 48 hours
 - 🤝 **We'll be fair** - Everyone gets heard
 
-**Remember: Reporting helps keep our community awesome! You're not "causing drama" - you're protecting our family! 🏡**
+### Remember: Reporting helps keep our community awesome
+
+You're not "causing drama" - you're protecting our family! 🏡
 
 ## 📋 What Happens Next - Enforcement Guidelines
 
-**We believe in growth, not punishment! Most issues are solved with a friendly chat. 💬**
+### We believe in growth, not punishment
+
+Most issues are solved with a friendly chat. 💬
 
 Community leaders will follow these Community Impact Guidelines in determining
 the consequences for any action they deem in violation of this Code of Conduct:

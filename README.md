@@ -33,7 +33,7 @@ We love that! Your fresh eyes help us grow:
 - 💡 **Have an idea?** Open an issue!
 - 🎨 **Want to help?** We'd love to have you!
 
-**Remember: No contribution is too small! Even fixing a typo helps! 🌟**
+### Remember: No contribution is too small! Even fixing a typo helps! 🌟
 
 ## 📚 Learn More
 

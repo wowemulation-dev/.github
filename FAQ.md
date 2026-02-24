@@ -20,7 +20,7 @@ Our work focuses on:
 We don't distribute game client software, assets, or help people avoid paying
 for games.
 
-### I found a YouTube video about running a private server...
+### I found a YouTube video about running a private server
 
 That's probably not us! 🙃 We're a different kind of WoW emulation community.
 We focus on:

@@ -37,7 +37,7 @@ together along the way. Nobody here knows everything, and that's what makes it f
 5. Push to your branch
 6. Open a Pull Request - we'll guide you from there!
 
-**Stuck at any step? That's normal! Drop a message in discussions and we'll help! 🤝**
+### Stuck at any step? That's normal! Drop a message in discussions and we'll help! 🤝
 
 ## ⏰ When to Expect Responses
 
@@ -47,7 +47,7 @@ Our team is mostly active on **weekends** 🗓️, so:
 - Weekend submissions: Usually get same-day attention
 - Urgent security issues: We'll prioritize these!
 
-**Your patience makes our community sustainable! 🌻**
+### Your patience makes our community sustainable! 🌻
 
 ## 🐛 Reporting Issues
 
@@ -61,7 +61,9 @@ Our team is mostly active on **weekends** 🗓️, so:
 - Screenshots are super helpful! 📸
 - Not sure about something? Just do your best!
 
-**Remember: The "perfect" issue doesn't exist. Your report helps us improve! 🌟**
+### Remember: The "perfect" issue doesn't exist
+
+Your report helps us improve! 🌟
 
 ## 🚀 Pull Requests
 
@@ -102,7 +104,9 @@ We use [Conventional Commits][] - it's simpler than it sounds! Here are examples
 - No period at the end
 - Explain the "why" in the PR description
 
-**Messed up a commit message? It happens to all of us! We can fix it together! 🤝**
+### Messed up a commit message? It happens to all of us
+
+We can fix it together! 🤝
 
 ## 📚 Learning Resources
 
@@ -127,7 +131,7 @@ We use [Conventional Commits][] - it's simpler than it sounds! Here are examples
 - **Community** - Helping others, answering questions, being kind
 - **Art & Design** - Icons, screenshots, improving UI/UX
 
-**Your unique perspective makes our community better! 🌈**
+### Your unique perspective makes our community better! 🌈
 
 ## 💖 Our Commitment to You
 
@@ -138,7 +142,9 @@ We use [Conventional Commits][] - it's simpler than it sounds! Here are examples
 
 ---
 
-**Ready to contribute? You've got this! And remember, we're here to help every step of the way! 🚀**
+### Ready to contribute? You've got this
+
+And remember, we're here to help every step of the way! 🚀
 
 [community discussions]: https://github.com/orgs/wowemulation-dev/discussions
 [Conventional Commits]: https://www.conventionalcommits.org/

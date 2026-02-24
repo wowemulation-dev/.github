@@ -86,7 +86,7 @@ When seeking support, remember:
 
 ---
 
-**Ready to connect? We can't wait to meet you! Drop by discussions and say hi! 👋**
+### Ready to connect? We can't wait to meet you! Drop by discussions and say hi! 👋
 
 [GitHub Discussions]: https://github.com/orgs/wowemulation-dev/discussions
 [@wowemulation@mastodon.social]: https://mastodon.social/@wowemulation
