@@ -32,11 +32,16 @@ body:
       label: Project
       description: Which project is your question about?
       options:
+        - binanana
+        - cascette-py
         - cascette-rs
-        - warcraft-rs
-        - rilua
-        - wow-patcher
+        - community
+        - protobuf-decompiler
         - recast-rs
+        - rilua
+        - typescript2cxx
+        - warcraft-rs
+        - wow-patcher
         - Other
     validations:
       required: true

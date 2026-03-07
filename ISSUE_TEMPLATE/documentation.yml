@@ -26,11 +26,16 @@ body:
       label: Project
       description: Which project is this documentation for?
       options:
+        - binanana
+        - cascette-py
         - cascette-rs
-        - warcraft-rs
-        - rilua
-        - wow-patcher
+        - community
+        - protobuf-decompiler
         - recast-rs
+        - rilua
+        - typescript2cxx
+        - warcraft-rs
+        - wow-patcher
         - Other
     validations:
       required: true

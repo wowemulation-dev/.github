@@ -28,11 +28,16 @@ body:
       label: Project
       description: Which project is this issue related to?
       options:
-        - cascette-rs (NGDP/CASC)
-        - warcraft-rs (File formats)
-        - rilua (Lua interpreter)
-        - wow-patcher
+        - binanana (Binary analysis)
+        - cascette-py (NGDP/CASC Python)
+        - cascette-rs (NGDP/CASC Rust)
+        - community
+        - protobuf-decompiler
         - recast-rs (Navigation)
+        - rilua (Lua interpreter)
+        - typescript2cxx (TS transpiler)
+        - warcraft-rs (File formats)
+        - wow-patcher
         - Other (please specify in additional context)
     validations:
       required: true

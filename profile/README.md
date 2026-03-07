@@ -26,18 +26,18 @@ Classic.
 We actively develop for modern WoW Classic clients while
 providing archival support for original releases.
 
-| Era                     | Versions               | Format    |
-| ----------------------- | ---------------------- | --------- |
-| Classic Era             | 1.13.x, 1.14.x, 1.15.x | CASC/NGDP |
-| Burning Crusade Classic | 2.5.x                  | CASC/NGDP |
-| Wrath Classic           | 3.4.x                  | CASC/NGDP |
-| Cataclysm Classic       | 4.4.x                  | CASC/NGDP |
-| Mists of Pandaria Remix | 5.5.x                  | CASC/NGDP |
-| Vanilla                 | 1.x                    | MPQ       |
-| The Burning Crusade     | 2.x                    | MPQ       |
-| Wrath of the Lich King  | 3.x                    | MPQ       |
-| Cataclysm               | 4.x                    | MPQ       |
-| Mists of Pandaria       | 5.x                    | MPQ       |
+| Era                       | Versions               | Format    |
+| ------------------------- | ---------------------- | --------- |
+| Classic (Era)             | 1.13.x, 1.14.x, 1.15.x | CASC/NGDP |
+| Burning Crusade Classic   | 2.5.x                  | CASC/NGDP |
+| Wrath Classic             | 3.4.x                  | CASC/NGDP |
+| Cataclysm Classic         | 4.4.x                  | CASC/NGDP |
+| Mists of Pandaria Classic | 5.5.x                  | CASC/NGDP |
+| Vanilla                   | 1.x                    | MPQ       |
+| The Burning Crusade       | 2.x                    | MPQ       |
+| Wrath of the Lich King    | 3.x                    | MPQ       |
+| Cataclysm                 | 4.x                    | MPQ       |
+| Mists of Pandaria         | 5.x                    | MPQ       |
 
 **CASC/NGDP**: Modern archive format with Blizzard's content
 distribution pipeline. We build replacement infrastructure for
