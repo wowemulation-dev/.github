@@ -82,7 +82,7 @@ handles CASC/NGDP.
 
 ### What's NGDP?
 
-NGDP (Next Generation Distribution Protocol) is Blizzard's system for
+NGDP (Next Generation Distribution Pipeline) is Blizzard's system for
 delivering game content. It handles:
 
 - Downloading game files
