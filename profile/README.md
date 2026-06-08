@@ -111,11 +111,10 @@ Remember: We're all learning together! Mistakes are how we grow!
 
 - [Community Discussions][] - Your questions make our community better!
 - [Discord][] - Join our server! Many members are creators of WoW modding tools.
-- [@wowemulation@mastodon.social][] - Follow us on Mastodon
+- <a rel="me" href="https://mastodon.social/@wowemulation">@wowemulation@mastodon.social</a> - Follow us on Mastodon
 - [Email us][mail] - For anything you'd rather discuss privately
 - [@danielsreichenbach][] - Our friendly primary caretaker
 
-[@wowemulation@mastodon.social]: https://mastodon.social/@wowemulation
 [community discussions]: https://github.com/orgs/wowemulation-dev/discussions
 [mail]: mailto:hello+github@wowemulation.dev
 [@danielsreichenbach]: https://github.com/danielsreichenbach
