@@ -1,4 +1,4 @@
-# Welcome to WoW Emulation
+# WoW Emulation &mdash; we are preserving World of Warcraft Classic
 
 <div align="center">
 
@@ -6,112 +6,70 @@
 
 </div>
 
-WoW Emulation is a warm, beginner-friendly community that preserves
-and archives all versions of World of Warcraft.
+WoW Emulation is an open-source community building the tools, servers, and
+research to run World of Warcraft Classic on your own hardware — fully
+local, with no dependency on Battle.net. We cover every Classic
+generation: Classic Era (1.13.x, 1.14.x, 1.15.x), TBC Classic (2.5.x),
+Wrath Classic (3.4.x), Cataclysm Classic (4.4.x), and Mists of Pandaria
+Classic (5.5.x).
 
-**Join us!** Drop into our [Discord][] or
-[community discussions][] to meet fellow enthusiasts, ask
-questions, and contribute to the future of WoW preservation.
-
-We actively develop tools for modern WoW Classic clients,
-letting you experience the game without relying on Battle.net.
-Our [cascette-rs][] project implements Blizzard's NGDP
-distribution protocol and CASC archive format, creating a
-complete alternative for playing Classic Era, TBC Classic,
-Wrath Classic, Cataclysm Classic, and Mists of Pandaria
-Classic.
+**Join us!** Drop into our [Discord][] or [community discussions][] to
+meet fellow enthusiasts, ask questions, and contribute to the future of
+WoW Classic preservation.
 
 ## What We Work On
 
-We actively develop for modern WoW Classic clients while
-providing archival support for original releases.
-
-| Era                       | Versions               | Format    |
-| ------------------------- | ---------------------- | --------- |
-| Classic (Era)             | 1.13.x, 1.14.x, 1.15.x | CASC/NGDP |
-| Burning Crusade Classic   | 2.5.x                  | CASC/NGDP |
-| Wrath Classic             | 3.4.x                  | CASC/NGDP |
-| Cataclysm Classic         | 4.4.x                  | CASC/NGDP |
-| Mists of Pandaria Classic | 5.5.x                  | CASC/NGDP |
-| Vanilla                   | 1.x                    | MPQ       |
-| The Burning Crusade       | 2.x                    | MPQ       |
-| Wrath of the Lich King    | 3.x                    | MPQ       |
-| Cataclysm                 | 4.x                    | MPQ       |
-| Mists of Pandaria         | 5.x                    | MPQ       |
-
-**CASC/NGDP**: Modern archive format with Blizzard's content
-distribution pipeline. We build replacement infrastructure for
-the Battle.net client that works with modern WoW Classic
-clients.
-
-**MPQ**: Legacy archive format used in original releases
-through Mists of Pandaria. Supported for archival purposes.
+- **Content delivery** — [cascette-rs][] implements Blizzard's NGDP
+  distribution pipeline and CASC archive format for Classic clients;
+  [cascette-py][] is the Python companion for format analysis and
+  prototyping. [warcraft-rs][] parses and creates the game file formats
+  (MPQ, DBC, BLP, M2, WMO, ADT, WDT, WDL).
+- **Client modification** — [wow-patcher][] patches WoW executables to
+  connect to a server you control: login redirection, RSA modulus
+  replacement, and custom certificate bundle injection.
+- **Servers** — [wooly-beast][] runs the game world (TrinityCore fork
+  for Wrath 3.3.5); [tavern][] provides the Battle.net account and
+  authentication services the clients log in against.
+- **Research and tooling** — [binanana][] maintains symbol databases and
+  Ghidra analysis scripts for Classic client binaries;
+  [protobuf-decompiler][] reconstructs `.proto` files from protobuf
+  reflection metadata; [rilua][] is a from-scratch Lua 5.1.1 interpreter
+  for addon support; [recast-rs][] provides navigation mesh generation
+  and pathfinding.
 
 ## Featured Projects
 
-| Project         | Description                                             |
-| --------------- | ------------------------------------------------------- |
-| [cascette-rs][] | NGDP/CASC implementation for modern WoW Classic clients |
-| [warcraft-rs][] | File format parsers (MPQ, DBC, BLP, M2, WMO, ADT)       |
-| [rilua][]       | Lua 5.1.1 interpreter in pure Rust                      |
-| [wow-patcher][] | Game client patching tools                              |
-| [recast-rs][]   | Navigation mesh library with WASM support               |
-
-## Community Projects
-
-### One Home for WoW Tooling
-
-Working with WoW game data used to mean digging through
-dozens of repositories and forums, hoping code still worked
-and links weren't dead. Everyone solved the same problems
-in isolation.
-
-Now **warcraft-rs** handles original releases (MPQ, BLP textures,
-M2 models, WMO objects, ADT terrain, DBC databases) and
-**cascette-rs** handles modern Classic clients (NGDP, CASC).
-One place, one community - your next project starts with working
-code instead of weeks of research.
-
-### A Lua VM, Built Together
-
-WoW uses Lua 5.1 for its interface and scripting. Building tooling
-around it meant binding to a C library - if you could make it work
-on your platform.
-
-Together we built **rilua**: a complete Lua 5.1.1 virtual
-machine in pure Rust. Compiler, VM, garbage collector, full
-standard library. Byte-identical to official PUC-Rio
-implementation. Pure Rust, no FFI, works everywhere including
-WASM. One community effort everyone can build on.
-
----
-
-Building something cool? We'd love to feature it! Drop us a
-message in [community discussions][] or [Discord][].
-
-## Our Mission
-
-- Archival - Preserving gaming history
-- Community - Keeping the magic alive together
-- Learning - Growing our skills while having fun
-- Inclusivity - Creating wonderful experiences for everyone
+| Project         | Description                                       |
+| --------------- | ------------------------------------------------- |
+| [cascette-rs][] | NGDP/CASC content delivery for Classic clients    |
+| [warcraft-rs][] | File format parsers (MPQ, DBC, BLP, M2, WMO, ADT) |
+| [tavern][]      | Battle.net account and authentication services    |
+| [wooly-beast][] | Game server (TrinityCore fork, Wrath 3.3.5)       |
+| [wow-patcher][] | Client patching tools                             |
+| [binanana][]    | Symbol database and Ghidra analysis for Classic   |
+| [rilua][]       | Lua 5.1.1 interpreter in pure Rust                |
+| [recast-rs][]   | Navigation mesh generation and pathfinding        |
 
 ## Getting Started
 
-Remember: We're all learning together! Mistakes are how we grow!
+We're all learning together — mistakes are how we grow.
 
-1. Say hello in our [community discussions][]
-2. Check out our [Contributing Guide](../CONTRIBUTING.md)
-3. Look for issues labeled "good first issue" in our projects
-4. Ask questions - we love helping newcomers
+1. Join our [Discord][] and say hello
+2. Introduce yourself in our [community discussions][]
+3. Check out our [Contributing Guide](../CONTRIBUTING.md)
+4. Look for issues labeled "good first issue" in our projects
+5. Ask questions — we love helping newcomers
 
-**New to open source?** We've all been there! Need help with Git? Want a mentor? Just ask in discussions!
+**New to open source?** We've all been there. Need help with Git? Want a
+mentor? Ask in discussions.
 
 ## Connect
 
 - [Community Discussions][] - Your questions make our community better!
-- [Discord][] - Join our server! Many members are creators of WoW modding tools.
-- <a rel="me" href="https://mastodon.social/@wowemulation">@wowemulation@mastodon.social</a> - Follow us on Mastodon
+- [Discord][] - Join our server! Many members are creators of WoW modding
+  tools.
+- <a rel="me" href="https://toot.wowemulation.dev/@wowemulation">Mastodon</a> -
+  Follow us @wowemulation@wowemulation.dev
 - [Email us][mail] - For anything you'd rather discuss privately
 - [@danielsreichenbach][] - Our friendly primary caretaker
 
@@ -121,6 +79,11 @@ Remember: We're all learning together! Mistakes are how we grow!
 [Discord]: https://discord.gg/Jj4uWy3DGP
 [warcraft-rs]: https://github.com/wowemulation-dev/warcraft-rs
 [cascette-rs]: https://github.com/wowemulation-dev/cascette-rs
-[rilua]: https://github.com/wowemulation-dev/rilua
+[cascette-py]: https://github.com/wowemulation-dev/cascette-py
+[tavern]: https://github.com/wowemulation-dev/tavern
+[wooly-beast]: https://github.com/wowemulation-dev/wooly-beast
 [wow-patcher]: https://github.com/wowemulation-dev/wow-patcher
+[binanana]: https://github.com/wowemulation-dev/binanana
+[protobuf-decompiler]: https://github.com/wowemulation-dev/protobuf-decompiler
+[rilua]: https://github.com/wowemulation-dev/rilua
 [recast-rs]: https://github.com/wowemulation-dev/recast-rs
